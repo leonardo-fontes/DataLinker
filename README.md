@@ -3,6 +3,7 @@
 1. Instale as dependências com o comando `npm install` ou `yarn`
 2. Para rodar o projeto, use o comando `npm run dev` ou `yarn dev`
 3. Acesse o projeto em `http://localhost:5173/`
+4. Você também pode acessar o projeto através do link: <a target="__blank" href="https://list-interface.vercel.app/">https://list-interface.vercel.app/</a>
 
 
 ## A aplicação
