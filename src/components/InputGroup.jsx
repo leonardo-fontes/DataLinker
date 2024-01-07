@@ -20,12 +20,11 @@ function InputGroup({ onHandleDelete, onHandleChange }) {
     literalValue: "",
   });
 
-  //funcao que muda o valor de uma unica propriedade do data 
+  
   const handleChange = (dataProp, value) => {
     setData((prev) => ({ ...prev, [dataProp]: value }));
   };
-
-  //aqui pego os parametros de dentro do data
+  
   const parametros = useMemo(() => {
     const { supportedValueTypes } = functionList.find(
       ({ name }) => name === data.function
